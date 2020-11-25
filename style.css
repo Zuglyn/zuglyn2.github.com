@@ -1,35 +1,26 @@
-html {
-    display: block;
-}
-h1,
-h2,
-h3,
-p {
-  font-family: "Helvetica" sans-serif;
+body {
+    font-family: "Mónaco";
+    background-color: Azur;
 }
 h1 {
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
     text-align: center;
-    font-size: 100px;
-    color: khaki;
-}
-.ugly h2 {
-    font-size: 32px;
-    color: white;
-}
-.price {
-    font-weight: bold;
-    color: blue;
-}
-#malinois {
-    background-color: mediumspringgreen;
-}
-#aleman {
-    background-color: lightcoral;
-}
-#husky {
-    background-color: peru
-}
-#groenendael {
-    background-color: skyblue;
-}
+  }
+h2 {
+    color: purple;
+    text-align: center;
+  }
+  table {
+    border: 3px solid darkviolet;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  thead {
+      background-color: mediumorchid;
+  }
+  td {
+      border-top: 1px solid darkviolet;
+  }
+  .nodo {
+      font-family: monospace;
+      background-color: beige;
+  }
