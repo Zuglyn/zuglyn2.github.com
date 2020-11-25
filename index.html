@@ -1,48 +1,85 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Perros de Pastoreo y Husky Siberiano</title>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
+    <head>
+      <link rel="stylesheet", href="/Users/zuglyngonzalez/Documents/proyectos/hoja de trucos/style.css", type="text/css">
+    </head>
 
-    <h1>Perros de Pastoreo</h1>
+    <body>
+        <h1>Selectores y Reglas Visuales</h1>
+        <h2>Selectores css y Etiquetas</h2>
+        <table>
+            <thead>
+                <th>Etiqueta</th>
+                <th>Nombre</th>
+                <th>descripcion</th>
+            </thead>
+            <tbody>
 
-    <!--Belga Malinois-->
+            <!--selectores y etiquetas-->
+                <tr>
+                    <td><span class="nodo">#ID</span></td>
+                    <td>Selector de ID</td>
+                    <td>Los selectores de ID se indican con un signo de almohadilla # seguido del nombre de ID.</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">&lt;link&gt;</span></td>
+                    <td>Link etiqueta</td>
+                    <td>El código CSS se puede escribir en sus propios archivos para mantenerlo separado del código HTML.</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">h1, h2</span></td>
+                    <td>Grupos de selectores CSS</td>
+                    <td>Haga coincidir varios selectores con la misma regla CSS, utilizando una lista separada por comas.</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">&lt;style&gt;</style></span></td>
+                    <td>Escribir CSS en un archivo HTML</td>
+                    <td>El código CSS se puede escribir en un archivo HTML al incluir el código en &lt;style&gt; etiquetas.</td>
+                </tr>
+                <tr>
+                    <td><san class="nodo">!important</san></td>
+                    <td>!important Regla</td>
+                    <td>La !important regla CSS se utiliza en declaraciones para anular cualquier otra declaración de una propiedad e ignorar la especiİcidad del selector.</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <div class="ugly">
-        <h2 id="malinois">Pastor Belga Malinois</h2>
-        <img src="resources/Copia de Sin título 2.png"/>
-        <h3>Pastor Belga Malinois</h3>
-        <p>El pastor belga malinois es una de las cuatro variedades de la raza canina de pastor belga. Su nombre proviene de la ciudad belga de Malinas —en neerlandés Mechelen, en francés Malines—, localidad que lo vio surgir. Tiene aptitudes como guardián de rebaño, es tenaz y protector, reuniendo las cualidades necesarias para ser entrenado como perro pastor, guardián, de defensa y de servicio. <span class="price">Precio desde los $500 / malinois.</span></p>
-    </div>
+        <h2>Propiedades CSS</h2>
+        <table>
+        <thead>
+            <th>Propiedad</th>
+            <th>Nombre</th>
+            <th>descripcion</th>
+        </thead>
+        <tbody>
 
-    <!--Pastor Aleman-->
-
-    <div class="ugly">
-        <h2 id="aleman">Pastor Aleman</h2>
-        <img src="resources/pastor aleman.png">
-        <h3>Pastor Aleman</h3>
-        <p>El pastor alemán u ovejero (en alemán: Deutscher Schäferhund) es una raza canina que proviene de Alemania.1​La raza es relativamente nueva, ya que su origen se remonta a 1899.2​ Forman parte del grupo de pastoreo, debido a que fueron perros desarrollados originalmente para reunir y vigilar ovejas. Desde entonces, sin embargo, gracias a su fuerza, inteligencia,3​ capacidad de entrenamiento y obediencia,3​ los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, como son: perro policía, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y cuerpos de seguridad y el ejército. En muchos países incluso cuentan con unidades específicas denominadas K-9.4​ <span class="price">desde los$400/ .aleman</span> </p>
-    </div>
-
-    <!--Husky Siberiano-->
-
-    <div class="ugly">
-        <h2 id="husky">Husky Siberiano</h2>
-        <img src="resources/1.png"/>
-        <h3>Husky Siberiano</h3>
-        <p>El husky siberiano es una raza de perro de trabajo originaria del noreste de Siberia (Chukotka, Rusia). Esta raza presenta un acusado parecido con el lobo. Originalmente fue criado por la tribu chukchi, en la que se utilizaba como perro de compañía para pastorear a los ciervos, tirar de los trineos y mantener calientes a los niños; en la actualidad se encuentra en diversas zonas del mundo. <span class="price">desde los $600 / husky.</span></p>
-    </div>
-
-    <!--Belga Groenandel-->
-
-    <div class="ugly">
-        <h2 id="groenendael">Pastor belga Groenendael</h2>
-        <img src="resources/husky.png"/>
-        <h3>Pastor belga Groenendael</h3>
-        <p>El pastor belga groenendael es una raza canina originaria de Bélgica. Es, también, una de las cuatro variedades en las que se divide el pastor belga. Los cuales son: malinés, tervouren y laekenois.<span class="price">desde los #300 / groenendael.</span></p>
-    </div>
-
-</body>
+            <!--Propiedasdes CSS-->
+                <tr>
+                    <td><span class="nodo">background-image</span></td>
+                    <td>background-image</td>
+                    <td>establece la imagen de fondo de un elemento. Se debe proporcionar una URL de imagen en la sintaxis url("moon.jpg") como valor de la propiedad.</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">url()</span></td>
+                    <td>URL funcion</td>
+                    <td>En CSS, la url() función se utiliza para envolver URL de recursos. Estos se pueden aplicar a varias propiedades, como background-image</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">background-color</span></td>
+                    <td>Color de Fondo</td>
+                    <td>La background-color propiedad CSS controla el color de fondo de los elementos.</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">text-align</span></td>
+                    <td>Alinear Texto</td>
+                    <td>La text-align propiedad CSS se puede utilizar para establecer la alineación del texto de los contenidos en línea. Esta propiedad se puede establecer a estos valores: left , right o center</td>
+                </tr>
+                <tr>
+                    <td><span class="nodo">color</span></td>
+                    <td>color del texto de primer plano</td>
+                    <td>Usando la color propiedad, el color del texto de primer plano de un elemento se puede establecer en CSS. El valor puede ser un nombre de color válido compatible con CSS como green o blue . Además, se puede utilizar un código de color de 3 o 6 dígitos como #22f o #2a2aff para establecer el color.</td>
+                </tr>
+         </tbody>
+        </table>
+    </body>
 </html>
